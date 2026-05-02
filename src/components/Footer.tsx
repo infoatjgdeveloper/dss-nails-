@@ -62,12 +62,22 @@ export function Footer() {
             <p className="mt-4 text-sm text-background/60 max-w-sm">
               Your beauty best friend in New York City. Wellness-focused nail care since 2006.
             </p>
-            <a
-              href="mailto:customer.care@dssnails.com"
-              className="mt-6 inline-block text-sm text-background/80 underline-grow"
-            >
-              customer.care@dssnails.com
-            </a>
+            <div className="mt-6 space-y-3">
+              <a
+                href="mailto:customer.care@dssnails.com"
+                className="block text-sm text-background/80 underline-grow"
+              >
+                customer.care@dssnails.com
+              </a>
+              <a
+                href="https://wa.me/17186068808?text=I%20want%20to%20get%20more%20info%20and%20book%20an%20appointment"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-sm text-background/80 underline-grow"
+              >
+                718-606-8808 (Book via WhatsApp)
+              </a>
+            </div>
           </div>
 
           <div>

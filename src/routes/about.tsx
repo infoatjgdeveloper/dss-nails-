@@ -182,13 +182,14 @@ function AboutPage() {
           </ul>
 
           <div className="mt-14 text-center">
-            <Link
-              to="/"
-              hash="footer"
+            <a
+              href="https://wa.me/17186068808?text=I%20want%20to%20get%20more%20info%20and%20book%20an%20appointment"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center px-10 py-4 bg-foreground text-background text-xs uppercase tracking-[0.25em] hover:bg-primary transition-colors duration-500"
             >
               Book Your Visit
-            </Link>
+            </a>
           </div>
         </div>
       </section>
