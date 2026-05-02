@@ -68,8 +68,8 @@ const galleryItems = [
   { src: nail6, alt: "Teal nails with blue rim and gold studs", category: "Modern" },
   { src: nail7, alt: "Red French tips with red rhinestones", category: "Bold" },
   { src: nail8, alt: "Classic vibrant red almond nails", category: "Classic" },
-  { src: tips, alt: "Nude gel nail tips", category: "Classic" },
-  { src: team, alt: "Our professional nail tech team", category: "Studio" },
+  { src: tips, alt: "Nude gel nail tips", category: "Classic" }
+  // { src: team, alt: "Our professional nail tech team", category: "Studio" },
 ];
 
 function GalleryPage() {

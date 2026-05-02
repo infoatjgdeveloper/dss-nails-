@@ -43,7 +43,7 @@ export function Gallery() {
               className="w-full h-[200px] md:h-[270px] object-cover"
             />
           </figure>
-          <figure className="col-span-6 md:col-span-5 hover-zoom">
+          {/* <figure className="col-span-6 md:col-span-5 hover-zoom">
             <img
               src={team}
               alt="DSS Nails and Spa team photo"
@@ -52,7 +52,7 @@ export function Gallery() {
               loading="lazy"
               className="w-full h-[200px] md:h-[270px] object-cover"
             />
-          </figure>
+          </figure> */}
         </div>
 
         <div className="flex justify-center">
