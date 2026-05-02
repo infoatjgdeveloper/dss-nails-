@@ -1,4 +1,4 @@
-import { Instagram } from "lucide-react";
+import { Instagram, Facebook } from "lucide-react";
 import { useState } from "react";
 
 function TikTokIcon({ className }: { className?: string }) {
@@ -96,11 +96,32 @@ export function Footer() {
               <li><a href="#" className="hover:text-olive-light transition-colors">Cancellation Policy</a></li>
             </ul>
             <div className="flex items-center gap-4 mt-8">
-              <a href="#" aria-label="Instagram" className="hover:text-olive-light transition-colors">
+              <a
+                href="https://www.instagram.com/dss.nailsastoria?igsh=MWh2bm1rb210MnFzOA%3D%3D&utm_source=qr"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="hover:text-olive-light transition-colors"
+              >
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" aria-label="TikTok" className="hover:text-olive-light transition-colors">
+              <a
+                href="https://www.tiktok.com/@dss.nails"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="TikTok"
+                className="hover:text-olive-light transition-colors"
+              >
                 <TikTokIcon className="w-5 h-5" />
+              </a>
+              <a
+                href="https://www.facebook.com/share/18LtgbSkct/?mibextid=wwXIfr"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="hover:text-olive-light transition-colors"
+              >
+                <Facebook className="w-5 h-5" />
               </a>
             </div>
           </div>

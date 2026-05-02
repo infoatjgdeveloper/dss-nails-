@@ -20,6 +20,11 @@ import nail14 from "@/assets/gallery/nail-14.png";
 import nail15 from "@/assets/gallery/nail-15.png";
 import nail16 from "@/assets/gallery/nail-16.png";
 import nail17 from "@/assets/gallery/nail-17.png";
+import nail18 from "@/assets/gallery/nail-18.png";
+import nail19 from "@/assets/gallery/nail-19.png";
+import nail20 from "@/assets/gallery/nail-20.png";
+import nail21 from "@/assets/gallery/nail-21.png";
+import nail22 from "@/assets/gallery/nail-22.png";
 
 // Import existing images for a full gallery
 import flowers from "@/assets/gallery-flowers.jpg";
@@ -55,6 +60,11 @@ const galleryItems = [
   { src: nail14, alt: "Classic short square French tips", category: "Timeless" },
   { src: nail16, alt: "Black French tips with white outline", category: "Modern" },
   { src: nail17, alt: "Long square white French with crystals", category: "Glamour" },
+  { src: nail18, alt: "Rose gold metallic French tips on square nails", category: "Elegant" },
+  { src: nail19, alt: "Playful 3D fruit and flower resin art", category: "Avant-garde" },
+  { src: nail20, alt: "Bold black square nails with white stars", category: "Edgy" },
+  { src: nail21, alt: "Glossy white nails with black hand-painted flowers", category: "Artistic" },
+  { src: nail22, alt: "Vibrant metallic blue chrome stiletto nails", category: "Chrome" },
   { src: nail6, alt: "Teal nails with blue rim and gold studs", category: "Modern" },
   { src: nail7, alt: "Red French tips with red rhinestones", category: "Bold" },
   { src: nail8, alt: "Classic vibrant red almond nails", category: "Classic" },
