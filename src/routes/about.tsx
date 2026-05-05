@@ -6,13 +6,13 @@ import portrait from "@/assets/about-portrait.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — DSS Nails & Spa" },
+      { title: "About — Dss Nails & Spa" },
       {
         name: "description",
         content:
-          "Discover the story behind DSS Nails & Spa, our philosophy, and visit us during our business hours Tuesday through Sunday.",
+          "Discover the story behind Dss Nails & Spa, our philosophy, and visit us during our business hours Tuesday through Sunday.",
       },
-      { property: "og:title", content: "About — DSS Nails & Spa" },
+      { property: "og:title", content: "About — Dss Nails & Spa" },
       {
         property: "og:description",
         content:
@@ -52,7 +52,7 @@ function AboutPage() {
             <em className="text-primary">beautifully cared</em> hands.
           </h1>
           <p className="mt-8 text-base md:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            DSS Nails &amp; Spa was founded with one simple belief — that beauty rituals
+            Dss Nails &amp; Spa was founded with one simple belief — that beauty rituals
             should feel like an exhale. Every visit is crafted to feel personal, slow,
             and unmistakably yours.
           </p>
@@ -66,7 +66,7 @@ function AboutPage() {
             <div className="absolute -inset-4 border border-primary/30 -z-10" />
             <img
               src={portrait}
-              alt="DSS Nails & Spa interior featuring soft pink palette"
+              alt="Dss Nails & Spa interior featuring soft pink palette"
               width={1024}
               height={1280}
               loading="lazy"
@@ -154,9 +154,8 @@ function AboutPage() {
               return (
                 <li
                   key={h.day}
-                  className={`grid grid-cols-[80px_1fr_auto] md:grid-cols-[120px_1fr_auto] items-center gap-4 py-5 md:py-6 px-2 transition-colors ${
-                    isToday ? "bg-primary/5" : ""
-                  }`}
+                  className={`grid grid-cols-[80px_1fr_auto] md:grid-cols-[120px_1fr_auto] items-center gap-4 py-5 md:py-6 px-2 transition-colors ${isToday ? "bg-primary/5" : ""
+                    }`}
                 >
                   <span className="font-serif text-lg md:text-xl text-primary">
                     {h.short}
@@ -170,9 +169,8 @@ function AboutPage() {
                     )}
                   </span>
                   <span
-                    className={`text-sm md:text-base tabular-nums ${
-                      h.closed ? "text-muted-foreground italic" : "text-foreground"
-                    }`}
+                    className={`text-sm md:text-base tabular-nums ${h.closed ? "text-muted-foreground italic" : "text-foreground"
+                      }`}
                   >
                     {h.time}
                   </span>

@@ -26,13 +26,13 @@ export function About() {
             nurture the body, mind, &amp; spirit 🌱"
           </blockquote>
           <p className="mt-8 text-base lg:text-lg leading-relaxed text-muted-foreground max-w-xl">
-            DSS Nails &amp; Spa is not just your average manicure or pedicure. It is your hour's
+            Dss Nails &amp; Spa is not just your average manicure or pedicure. It is your hour's
             retreat from the stress of the busy city and life. Let us be your beauty best friend!
           </p>
           <div className="mt-10 flex items-center gap-4">
             <span className="block w-12 h-px bg-foreground/40" />
             <p className="text-sm uppercase tracking-[0.25em] text-foreground/70">
-              Joey · Founder of DSS Nails &amp; Spa
+              Joey · Founder of Dss Nails &amp; Spa
             </p>
           </div>
         </div>

@@ -2,40 +2,33 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
-// Import new gallery images
-import nail1 from "@/assets/gallery/nail-1.png";
-import nail2 from "@/assets/gallery/nail-2.png";
-import nail3 from "@/assets/gallery/nail-3.png";
-import nail4 from "@/assets/gallery/nail-4.png";
-import nail5 from "@/assets/gallery/nail-5.png";
-import nail6 from "@/assets/gallery/nail-6.png";
-import nail7 from "@/assets/gallery/nail-7.png";
-import nail8 from "@/assets/gallery/nail-8.png";
-import nail9 from "@/assets/gallery/nail-9.png";
-import nail10 from "@/assets/gallery/nail-10.png";
-import nail11 from "@/assets/gallery/nail-11.png";
-import nail12 from "@/assets/gallery/nail-12.png";
-import nail13 from "@/assets/gallery/nail-13.png";
-import nail14 from "@/assets/gallery/nail-14.png";
-import nail15 from "@/assets/gallery/nail-15.png";
-import nail16 from "@/assets/gallery/nail-16.png";
-import nail17 from "@/assets/gallery/nail-17.png";
-import nail18 from "@/assets/gallery/nail-18.png";
-import nail19 from "@/assets/gallery/nail-19.png";
-import nail20 from "@/assets/gallery/nail-20.png";
-import nail21 from "@/assets/gallery/nail-21.png";
-import nail22 from "@/assets/gallery/nail-22.png";
-
-// Import existing images for a full gallery
-import flowers from "@/assets/gallery-flowers.jpg";
-import tips from "@/assets/gallery-tips.jpg";
-import team from "@/assets/gallery-team.jpg";
+// Import last uploaded gallery images
+import nail23 from "@/assets/gallery/nail-23.jpg";
+import nail24 from "@/assets/gallery/nail-24.jpg";
+import nail25 from "@/assets/gallery/nail-25.jpg";
+import nail26 from "@/assets/gallery/nail-26.jpg";
+import nail27 from "@/assets/gallery/nail-27.jpg";
+import nail28 from "@/assets/gallery/nail-28.jpg";
+import nail29 from "@/assets/gallery/nail-29.jpg";
+import nail30 from "@/assets/gallery/nail-30.jpg";
+import nail31 from "@/assets/gallery/nail-31.jpg";
+import nail32 from "@/assets/gallery/nail-32.jpg";
+import nail33 from "@/assets/gallery/nail-33.jpg";
+import nail34 from "@/assets/gallery/nail-34.jpg";
+import nail35 from "@/assets/gallery/nail-35.jpg";
+import nail36 from "@/assets/gallery/nail-36.jpg";
+import nail37 from "@/assets/gallery/nail-37.jpg";
+import nail38 from "@/assets/gallery/nail-38.jpg";
+import nail39 from "@/assets/gallery/nail-39.jpg";
+import nail40 from "@/assets/gallery/nail-40.jpg";
+import nail41 from "@/assets/gallery/nail-41.jpg";
+import nail42 from "@/assets/gallery/nail-42.jpg";
 
 export const Route = createFileRoute("/gallery")({
   component: GalleryPage,
   head: () => ({
     meta: [
-      { title: "Gallery — DSS Nails & Spa" },
+      { title: "Gallery — Dss Nails & Spa" },
       {
         name: "description",
         content: "Explore our portfolio of luxury nail art, from minimal designs to intricate masterpieces.",
@@ -45,38 +38,33 @@ export const Route = createFileRoute("/gallery")({
 });
 
 const galleryItems = [
-  { src: nail1, alt: "Multicolor chrome stiletto nails", category: "Nail Art" },
-  { src: nail2, alt: "White glitter gradient almond nails", category: "Minimal" },
-  { src: nail3, alt: "Milky white nails with cherry art", category: "Hand-painted" },
-  { src: nail9, alt: "Natural cherry art variation", category: "Hand-painted" },
-  { src: flowers, alt: "Delicate floral nail art", category: "Floral" },
-  { src: nail4, alt: "Cream nails with brown floral patterns and gold studs", category: "Design" },
-  { src: nail5, alt: "Pink glitter French tips with rhinestones", category: "Glamour" },
-  { src: nail10, alt: "Glamour pink glitter variation", category: "Glamour" },
-  { src: nail11, alt: "Vibrant blue chrome stiletto nails", category: "Chrome" },
-  { src: nail15, alt: "Multicolor shift chrome stiletto", category: "Chrome" },
-  { src: nail12, alt: "Soft pearl chrome almond nails", category: "Elegant" },
-  { src: nail13, alt: "Artistic 3D bubble and gem art", category: "Avant-garde" },
-  { src: nail14, alt: "Classic short square French tips", category: "Timeless" },
-  { src: nail16, alt: "Black French tips with white outline", category: "Modern" },
-  { src: nail17, alt: "Long square white French with crystals", category: "Glamour" },
-  { src: nail18, alt: "Rose gold metallic French tips on square nails", category: "Elegant" },
-  { src: nail19, alt: "Playful 3D fruit and flower resin art", category: "Avant-garde" },
-  { src: nail20, alt: "Bold black square nails with white stars", category: "Edgy" },
-  { src: nail21, alt: "Glossy white nails with black hand-painted flowers", category: "Artistic" },
-  { src: nail22, alt: "Vibrant metallic blue chrome stiletto nails", category: "Chrome" },
-  { src: nail6, alt: "Teal nails with blue rim and gold studs", category: "Modern" },
-  { src: nail7, alt: "Red French tips with red rhinestones", category: "Bold" },
-  { src: nail8, alt: "Classic vibrant red almond nails", category: "Classic" },
-  { src: tips, alt: "Nude gel nail tips", category: "Classic" }
-  // { src: team, alt: "Our professional nail tech team", category: "Studio" },
+  { src: nail23, alt: "Nude pink ombre almond nails", category: "Gradient" },
+  { src: nail24, alt: "Silver glitter gradient almond nails", category: "Glamour" },
+  { src: nail25, alt: "Soft pink ombre hands with rings", category: "Elegant" },
+  { src: nail26, alt: "White French tips with hand-painted cherry art", category: "Hand-painted" },
+  { src: nail27, alt: "Classic glitter French tip manicure", category: "Classic" },
+  { src: nail28, alt: "Deep purple iridescent chrome stiletto nails", category: "Chrome" },
+  { src: nail29, alt: "Hot pink glitter tips with crystal embellishments", category: "Glamour" },
+  { src: nail30, alt: "Abstract brown floral and tortoise pattern design", category: "Artistic" },
+  { src: nail31, alt: "Cherry blossom inspired white French tips", category: "Hand-painted" },
+  { src: nail32, alt: "Deep teal nails with light blue border and gold accents", category: "Modern" },
+  { src: nail33, alt: "Classic vibrant solid red glossy nails", category: "Classic" },
+  { src: nail34, alt: "Celestial white nails with gold stars and crystals", category: "Artistic" },
+  { src: nail35, alt: "Luxury red French tips with heavy red rhinestone accents", category: "Glamour" },
+  { src: nail36, alt: "Soft pink ombre with delicate white floral and pearl art", category: "Floral" },
+  { src: nail37, alt: "Playful pastel multicolor French tip set", category: "Modern" },
+  { src: nail38, alt: "Ethereal white nails with celestial eye and star motifs", category: "Artistic" },
+  { src: nail39, alt: "Elegant black French tips with hand-painted black floral details", category: "Modern" },
+  { src: nail40, alt: "Dramatic red French tips with intricate red crystal work", category: "Glamour" },
+  { src: nail41, alt: "Iridescent pink nails with gold stars and pearl embellishments", category: "Artistic" },
+  { src: nail42, alt: "Clean white French tips with elegant square crystal accents", category: "Elegant" },
 ];
 
 function GalleryPage() {
   return (
     <main className="min-h-screen bg-background">
       <Navbar />
-      
+
       <section className="pt-32 pb-24 lg:pt-48 lg:pb-36 px-6 lg:px-10">
         <div className="max-w-7xl mx-auto">
           <div className="mb-16 lg:mb-24">
@@ -88,7 +76,7 @@ function GalleryPage() {
               <em className="text-accent italic">Every Detail</em>
             </h1>
             <p className="max-w-xl mt-10 text-muted-foreground text-lg leading-relaxed animate-fade-up" style={{ animationDelay: '200ms' }}>
-              Our gallery showcase reflects the artistry and precision we bring to every client. 
+              Our gallery showcase reflects the artistry and precision we bring to every client.
               From avant-garde chrome shifts to timeless elegance, find inspiration for your next set.
             </p>
           </div>

@@ -58,16 +58,16 @@ export function Footer() {
 
         <div className="grid md:grid-cols-4 gap-10 py-16">
           <div className="md:col-span-2">
-            <p className="font-serif text-3xl">DSS <em className="text-olive-light">Nails &amp; Spa</em></p>
+            <p className="font-serif text-3xl">Dss <em className="text-olive-light">Nails &amp; Spa</em></p>
             <p className="mt-4 text-sm text-background/60 max-w-sm">
               Your beauty best friend in New York City. Wellness-focused nail care since 2006.
             </p>
             <div className="mt-6 space-y-3">
               <a
-                href="mailto:customer.care@dssnails.com"
+                href="mailto:customer.care@Dssnails.com"
                 className="block text-sm text-background/80 underline-grow"
               >
-                customer.care@dssnails.com
+                customer.care@Dssnails.com
               </a>
               <a
                 href="https://wa.me/17186068808?text=I%20want%20to%20get%20more%20info%20and%20book%20an%20appointment"
@@ -84,7 +84,7 @@ export function Footer() {
             <p className="text-xs uppercase tracking-[0.25em] text-background/50 mb-5">Explore</p>
             <ul className="space-y-3 text-sm">
               <li><a href="#" className="hover:text-olive-light transition-colors">Blog Stories</a></li>
-              <li><a href="#" className="hover:text-olive-light transition-colors">Contact DSS</a></li>
+              <li><a href="#" className="hover:text-olive-light transition-colors">Contact Dss</a></li>
               <li><a href="#" className="hover:text-olive-light transition-colors">Career</a></li>
             </ul>
           </div>
@@ -97,7 +97,7 @@ export function Footer() {
             </ul>
             <div className="flex items-center gap-4 mt-8">
               <a
-                href="https://www.instagram.com/dss.nailsastoria?igsh=MWh2bm1rb210MnFzOA%3D%3D&utm_source=qr"
+                href="https://www.instagram.com/Dss.nailsastoria?igsh=MWh2bm1rb210MnFzOA%3D%3D&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -106,7 +106,7 @@ export function Footer() {
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="https://www.tiktok.com/@dss.nails"
+                href="https://www.tiktok.com/@Dss.nails"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="TikTok"
@@ -128,7 +128,7 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-8 border-t border-background/15 text-xs text-background/50 uppercase tracking-[0.2em]">
-          <p>© {new Date().getFullYear()} DSS Nails &amp; Spa</p>
+          <p>© {new Date().getFullYear()} Dss Nails &amp; Spa</p>
           <p>Made with care in New York</p>
         </div>
       </div>

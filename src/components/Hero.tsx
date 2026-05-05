@@ -15,7 +15,7 @@ export function Hero() {
           </h1>
           <div className="mt-8 space-y-5 text-base lg:text-[17px] leading-relaxed text-muted-foreground max-w-xl">
             <p>
-              DSS Nails &amp; Spa — The Best New York Nail Salon — a trusted destination for
+              Dss Nails &amp; Spa — The Best New York Nail Salon — a trusted destination for
               wellness-focused, professional nail care in New York City since 2006 ✨
             </p>
             <p>
@@ -27,7 +27,7 @@ export function Hero() {
               Gel Manicure.
             </p>
             <p>
-              Whether it's your go-to manicure or a moment of calm in a busy day, DSS is here
+              Whether it's your go-to manicure or a moment of calm in a busy day, Dss is here
               to make you feel confident, cared for, and uniquely you.
             </p>
           </div>
@@ -53,7 +53,7 @@ export function Hero() {
           <div className="absolute -inset-4 bg-primary/10 -z-10" />
           <img
             src={heroImg}
-            alt="Elegant hands with luxury nail art at DSS Nails & Spa"
+            alt="Elegant almond-shaped nails with a soft nude pink ombre gradient"
             width={1024}
             height={1280}
             className="w-full h-[520px] md:h-[640px] object-cover"

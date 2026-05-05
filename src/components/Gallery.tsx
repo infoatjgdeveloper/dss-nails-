@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
-import tips from "@/assets/gallery-tips.jpg";
-import flowers from "@/assets/gallery-flowers.jpg";
+import gallery1 from "@/assets/gallery-main-1.jpg";
+import gallery2 from "@/assets/gallery-main-2.jpg";
 import team from "@/assets/gallery-team.jpg";
 
 export function Gallery() {
@@ -25,8 +25,8 @@ export function Gallery() {
         <div className="grid grid-cols-12 gap-4 md:gap-6 mb-12">
           <figure className="col-span-12 md:col-span-7 hover-zoom">
             <img
-              src={flowers}
-              alt="Pink nails with delicate white flower nail art"
+              src={gallery1}
+              alt="Close-up of elegant almond-shaped nails with silver glitter gradient"
               width={800}
               height={1000}
               loading="lazy"
@@ -35,8 +35,8 @@ export function Gallery() {
           </figure>
           <figure className="col-span-6 md:col-span-5 hover-zoom">
             <img
-              src={tips}
-              alt="Long almond-shaped nude gel nail tips"
+              src={gallery2}
+              alt="Hands with rings showing soft pink ombre manicured nails"
               width={800}
               height={800}
               loading="lazy"
@@ -46,7 +46,7 @@ export function Gallery() {
           {/* <figure className="col-span-6 md:col-span-5 hover-zoom">
             <img
               src={team}
-              alt="DSS Nails and Spa team photo"
+              alt="Dss Nails and Spa team photo"
               width={800}
               height={1000}
               loading="lazy"

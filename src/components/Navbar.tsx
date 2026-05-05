@@ -15,7 +15,7 @@ const navLinks = [
   { label: "About", href: "/about", internal: true },
   { label: "Gallery", href: "/gallery", internal: true },
   { label: "Press-On Nail", href: "/#gallery", internal: false },
-  { label: "DSS App", href: "/#locations", internal: false },
+  { label: "Dss App", href: "/#locations", internal: false },
   { label: "Contact", href: "/#footer", internal: false },
 ];
 
@@ -37,13 +37,12 @@ export function Navbar() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 ${
-          scrolled ? "bg-background/80 backdrop-blur-md border-b border-border/50" : "bg-transparent"
-        }`}
+        className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 ${scrolled ? "bg-background/80 backdrop-blur-md border-b border-border/50" : "bg-transparent"
+          }`}
       >
         <nav className="max-w-7xl mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
           <Link to="/" className="font-serif text-2xl tracking-tight text-foreground">
-            DSS <span className="text-primary italic">Nails</span>
+            Dss <span className="text-primary italic">Nails</span>
           </Link>
 
           <ul className="hidden lg:flex items-center gap-10">
@@ -79,7 +78,7 @@ export function Navbar() {
             </a>
             <div className="flex items-center gap-4 pl-4 border-l border-border/50">
               <a
-                href="https://www.instagram.com/dss.nailsastoria?igsh=MWh2bm1rb210MnFzOA%3D%3D&utm_source=qr"
+                href="https://www.instagram.com/Dss.nailsastoria?igsh=MWh2bm1rb210MnFzOA%3D%3D&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -88,7 +87,7 @@ export function Navbar() {
                 <Instagram className="w-4 h-4" />
               </a>
               <a
-                href="https://www.tiktok.com/@dss.nails"
+                href="https://www.tiktok.com/@Dss.nails"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="TikTok"
@@ -120,12 +119,11 @@ export function Navbar() {
 
       {/* Mobile fullscreen overlay */}
       <div
-        className={`fixed inset-0 z-50 bg-background transition-all duration-500 lg:hidden ${
-          open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
-        }`}
+        className={`fixed inset-0 z-50 bg-background transition-all duration-500 lg:hidden ${open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+          }`}
       >
         <div className="flex items-center justify-between h-20 px-6">
-          <span className="font-serif text-2xl">DSS <span className="text-primary italic">Nails</span></span>
+          <span className="font-serif text-2xl">Dss <span className="text-primary italic">Nails</span></span>
           <button onClick={() => setOpen(false)} aria-label="Close menu" className="p-2 -mr-2">
             <X className="w-6 h-6" />
           </button>
@@ -169,7 +167,7 @@ export function Navbar() {
           </li>
           <li className="mt-4 flex items-center gap-8">
             <a
-              href="https://www.instagram.com/dss.nailsastoria?igsh=MWh2bm1rb210MnFzOA%3D%3D&utm_source=qr"
+              href="https://www.instagram.com/Dss.nailsastoria?igsh=MWh2bm1rb210MnFzOA%3D%3D&utm_source=qr"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -178,7 +176,7 @@ export function Navbar() {
               <Instagram className="w-6 h-6" />
             </a>
             <a
-              href="https://www.tiktok.com/@dss.nails"
+              href="https://www.tiktok.com/@Dss.nails"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="TikTok"

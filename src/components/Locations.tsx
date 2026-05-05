@@ -19,7 +19,7 @@ export function Locations() {
           Find Us
         </p>
         <h2 className="font-serif text-7xl md:text-9xl lg:text-[12rem] leading-none tracking-tight text-foreground">
-          DSS <em className="text-primary italic">Locations</em>
+          Dss <em className="text-primary italic">Locations</em>
         </h2>
 
         <div className="mt-16 max-w-xl mx-auto text-center group cursor-pointer">
