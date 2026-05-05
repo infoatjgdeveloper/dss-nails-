@@ -1,7 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import portrait from "@/assets/about-portrait.jpg";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -60,44 +59,31 @@ function AboutPage() {
       </section>
 
       {/* Story */}
-      <section className="py-24 lg:py-32 px-6 lg:px-10">
-        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-          <div className="relative">
-            <div className="absolute -inset-4 border border-primary/30 -z-10" />
-            <img
-              src={portrait}
-              alt="Dss Nails & Spa interior featuring soft pink palette"
-              width={1024}
-              height={1280}
-              loading="lazy"
-              className="w-full h-[480px] md:h-[640px] object-cover"
-            />
-          </div>
-
-          <div>
-            <p className="text-xs uppercase tracking-[0.3em] text-primary mb-6">
-              Our Story
+      <section className="py-24 lg:py-32 px-6 lg:px-10 border-b border-border/30">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-xs uppercase tracking-[0.3em] text-primary mb-6 animate-fade-up">
+            Our Story
+          </p>
+          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-[1.15] text-foreground mb-10 animate-fade-up" style={{ animationDelay: '100ms' }}>
+            Crafted with patience. <br />
+            Finished with intention.
+          </h2>
+          <div className="space-y-6 text-base lg:text-xl leading-relaxed text-muted-foreground animate-fade-up" style={{ animationDelay: '200ms' }}>
+            <p>
+              What began as a small studio has grown into a sanctuary trusted by guests
+              who value quality, hygiene, and an unrushed pace. Our technicians are
+              trained in the latest techniques — from soft gel extensions to detailed
+              hand-painted artistry.
             </p>
-            <h2 className="font-serif text-4xl md:text-5xl leading-[1.15] text-foreground mb-8">
-              Crafted with patience. Finished with intention.
-            </h2>
-            <div className="space-y-5 text-base lg:text-lg leading-relaxed text-muted-foreground">
-              <p>
-                What began as a small studio has grown into a sanctuary trusted by guests
-                who value quality, hygiene, and an unrushed pace. Our technicians are
-                trained in the latest techniques — from soft gel extensions to detailed
-                hand-painted artistry.
-              </p>
-              <p>
-                We use premium, low-odor products and sterilized tools for every guest,
-                because we believe that luxury begins with care you can feel — not just
-                see.
-              </p>
-              <p>
-                Whether you're here for a quiet weekday treat or preparing for a special
-                moment, we'd love to welcome you in.
-              </p>
-            </div>
+            <p>
+              We use premium, low-odor products and sterilized tools for every guest,
+              because we believe that luxury begins with care you can feel — not just
+              see.
+            </p>
+            <p>
+              Whether you're here for a quiet weekday treat or preparing for a special
+              moment, we'd love to welcome you in.
+            </p>
           </div>
         </div>
       </section>
@@ -105,7 +91,7 @@ function AboutPage() {
       {/* Values */}
       <section className="py-20 px-6 lg:px-10 bg-gradient-soft">
         <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-10 lg:gap-16">
+          <div className="grid md:grid-cols-3 gap-10 lg:gap-16 text-center">
             {[
               {
                 title: "Hygiene First",
@@ -120,7 +106,7 @@ function AboutPage() {
                 copy: "Premium gels and lacquers selected for shine, wear, and gentle removal.",
               },
             ].map((v) => (
-              <div key={v.title}>
+              <div key={v.title} className="flex flex-col items-center">
                 <span className="block w-10 h-px bg-primary mb-6" />
                 <h3 className="font-serif text-2xl md:text-3xl text-foreground mb-4">
                   {v.title}
