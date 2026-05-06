@@ -6,7 +6,7 @@ export function Hero() {
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
         <div className="animate-fade-up">
           <p className="text-xs uppercase tracking-[0.3em] text-primary mb-6">
-            Est. New York · 2006
+            Est. Astoria, Queens · 2024
           </p>
           <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-[1.05] text-foreground">
             Your Beauty <em className="text-primary not-italic">Best</em>
@@ -15,8 +15,8 @@ export function Hero() {
           </h1>
           <div className="mt-8 space-y-5 text-base lg:text-[17px] leading-relaxed text-muted-foreground max-w-xl">
             <p>
-              Dss Nails &amp; Spa — The Best New York Nail Salon — a trusted destination for
-              wellness-focused, professional nail care in New York City since 2006 ✨
+              Dss Nails &amp; Spa — The Best Nail Salon in New York City — a trusted destination for
+              wellness-focused, professional nail care in Astoria, heart of Queens since 2024 ✨
             </p>
             <p>
               With a deep belief in self-care, we create a warm, inclusive space where beauty
@@ -59,9 +59,9 @@ export function Hero() {
             className="w-full h-[520px] md:h-[640px] object-cover"
           />
           <div className="absolute -bottom-6 -left-6 bg-background px-6 py-4 shadow-sm hidden md:block">
-            <p className="font-serif text-xl text-foreground">18 Years</p>
+            <p className="font-serif text-xl text-foreground">Est. 2024</p>
             <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">
-              of artistry
+              in Astoria
             </p>
           </div>
         </div>

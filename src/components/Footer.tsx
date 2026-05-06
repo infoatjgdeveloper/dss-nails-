@@ -26,7 +26,7 @@ export function Footer() {
             </p>
           </div>
 
-          <form
+          {/* <form
             onSubmit={(e) => {
               e.preventDefault();
               setEmail("");
@@ -53,14 +53,14 @@ export function Footer() {
                 Get In Touch →
               </button>
             </div>
-          </form>
+          </form> */}
         </div>
 
         <div className="grid md:grid-cols-4 gap-10 py-16">
           <div className="md:col-span-2">
             <p className="font-serif text-3xl">Dss <em className="text-olive-light">Nails &amp; Spa</em></p>
             <p className="mt-4 text-sm text-background/60 max-w-sm">
-              Your beauty best friend in New York City. Wellness-focused nail care since 2006.
+              Your beauty best friend in Astoria, heart of Queens. Wellness-focused nail care since 2024.
             </p>
             <div className="mt-6 space-y-3">
               <a
@@ -75,7 +75,7 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className="block text-sm text-background/80 underline-grow"
               >
-                718-606-8808 (Book via WhatsApp)
+                718-606-8808 (Book via Call)
               </a>
             </div>
           </div>
@@ -129,7 +129,7 @@ export function Footer() {
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-8 border-t border-background/15 text-xs text-background/50 uppercase tracking-[0.2em]">
           <p>© {new Date().getFullYear()} Dss Nails &amp; Spa</p>
-          <p>Made with care in New York</p>
+          <p>Made with care in Astoria</p>
         </div>
       </div>
     </footer>

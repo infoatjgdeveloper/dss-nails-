@@ -26,11 +26,14 @@ export function Locations() {
           <p className="font-serif text-4xl md:text-5xl text-foreground group-hover:text-primary transition-colors">
             Astoria
           </p>
+          <p className="mt-3 text-xs uppercase tracking-[0.25em] text-primary font-medium">
+            Best nail salon in New York City — Astoria, Heart of Queens
+          </p>
           <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
-            2520 21 Street, New York, New York 11102
+            2520 21 Street, Astoria, Queens, NY 11102
           </p>
           <a
-            href="https://www.google.com/maps/search/?api=1&query=2520+21+Street,+New+York,+New+York+11102"
+            href="https://www.google.com/maps/search/?api=1&query=2520+21+Street,+Astoria,+Queens,+NY+11102"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 text-xs uppercase tracking-[0.25em] text-primary underline-grow inline-block"

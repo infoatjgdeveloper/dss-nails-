@@ -11,16 +11,16 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Dss Nails & Spa — Luxury Nail Salon in New York" },
+      { title: "Dss Nails & Spa — Luxury Nail Salon in Astoria, Queens" },
       {
         name: "description",
         content:
-          "Dss Nails & Spa — NYC's trusted luxury nail salon since 2006. Specializing in Japanese Gel Manicures, nail art, and wellness-focused care.",
+          "Dss Nails & Spa — Astoria's trusted luxury nail salon in the heart of Queens since 2024. Specializing in Japanese Gel Manicures, nail art, and wellness-focused care.",
       },
       { property: "og:title", content: "Dss Nails & Spa — Your Beauty Best Friend" },
       {
         property: "og:description",
-        content: "Wellness-focused, professional nail care in New York City since 2006.",
+        content: "Wellness-focused, professional nail care in Astoria, Queens since 2024.",
       },
     ],
   }),
