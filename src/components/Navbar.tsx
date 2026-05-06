@@ -69,9 +69,7 @@ export function Navbar() {
 
           <div className="hidden lg:flex items-center gap-4 ml-6">
             <a
-              href="https://wa.me/17186068808?text=I%20want%20to%20get%20more%20info%20and%20book%20an%20appointment"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="tel:17186068808"
               className="inline-flex items-center px-6 py-3 bg-foreground text-background text-xs uppercase tracking-[0.2em] hover:bg-primary transition-colors duration-500"
             >
               Book Now
@@ -156,9 +154,7 @@ export function Navbar() {
           ))}
           <li className="pt-6">
             <a
-              href="https://wa.me/17186068808?text=I%20want%20to%20get%20more%20info%20and%20book%20an%20appointment"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="tel:17186068808"
               onClick={() => setOpen(false)}
               className="inline-flex items-center px-10 py-4 bg-foreground text-background text-sm uppercase tracking-[0.25em]"
             >

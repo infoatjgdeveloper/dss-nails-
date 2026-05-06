@@ -26,34 +26,6 @@ export function Footer() {
             </p>
           </div>
 
-          {/* <form
-            onSubmit={(e) => {
-              e.preventDefault();
-              setEmail("");
-            }}
-            className="flex flex-col justify-end"
-          >
-            <label htmlFor="news-email" className="text-xs uppercase tracking-[0.25em] text-background/60 mb-3">
-              Email Address
-            </label>
-            <div className="flex items-end gap-4 border-b border-background/30 pb-3">
-              <input
-                id="news-email"
-                type="email"
-                required
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="you@example.com"
-                className="flex-1 bg-transparent outline-none text-base placeholder:text-background/30"
-              />
-              <button
-                type="submit"
-                className="text-xs uppercase tracking-[0.25em] text-background hover:text-olive-light transition-colors whitespace-nowrap"
-              >
-                Get In Touch →
-              </button>
-            </div>
-          </form> */}
         </div>
 
         <div className="grid md:grid-cols-4 gap-10 py-16">
@@ -70,12 +42,18 @@ export function Footer() {
                 customer.care@Dssnails.com
               </a>
               <a
-                href="https://wa.me/17186068808?text=I%20want%20to%20get%20more%20info%20and%20book%20an%20appointment"
+                href="tel:17186068808"
+                className="block text-sm text-background/80 underline-grow"
+              >
+                718-606-8808 (Call to Book)
+              </a>
+              <a
+                href="https://ig.me/m/Dss.nailsastoria"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-sm text-background/80 underline-grow"
               >
-                718-606-8808 (Book via Call)
+                DM on Instagram
               </a>
             </div>
           </div>

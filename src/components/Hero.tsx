@@ -33,12 +33,18 @@ export function Hero() {
           </div>
           <div className="mt-10 flex flex-wrap gap-4">
             <a
-              href="https://wa.me/17186068808?text=I%20want%20to%20get%20more%20info%20and%20book%20an%20appointment"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="tel:17186068808"
               className="inline-flex items-center px-8 py-4 bg-foreground text-background text-xs uppercase tracking-[0.2em] hover:bg-primary transition-colors duration-500"
             >
               Book an Appointment
+            </a>
+            <a
+              href="https://ig.me/m/Dss.nailsastoria"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-8 py-4 border border-foreground/30 text-foreground text-xs uppercase tracking-[0.2em] hover:border-foreground transition-colors"
+            >
+              DM on Instagram
             </a>
             <a
               href="#services"
