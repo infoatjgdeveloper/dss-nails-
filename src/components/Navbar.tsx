@@ -14,7 +14,7 @@ const navLinks = [
   { label: "Services", href: "/#services", internal: false },
   { label: "About", href: "/about", internal: true },
   { label: "Gallery", href: "/gallery", internal: true },
-  { label: "Press-On Nail", href: "/#gallery", internal: false },
+  // { label: "Press-On Nail", href: "/#gallery", internal: false },
   { label: "Dss App", href: "/#locations", internal: false },
   { label: "Contact", href: "/#footer", internal: false },
 ];
