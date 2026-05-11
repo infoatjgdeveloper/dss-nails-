@@ -25,7 +25,7 @@ export function Gallery() {
         <div className="grid grid-cols-12 gap-4 md:gap-6 mb-12">
           <figure className="col-span-12 md:col-span-7 hover-zoom">
             <img
-              src={gallery1}
+              src={gallery2}
               alt="Close-up of elegant almond-shaped nails with silver glitter gradient"
               width={800}
               height={1000}
@@ -35,7 +35,7 @@ export function Gallery() {
           </figure>
           <figure className="col-span-6 md:col-span-5 hover-zoom">
             <img
-              src={gallery2}
+              src={gallery1}
               alt="Hands with rings showing soft pink ombre manicured nails"
               width={800}
               height={800}
