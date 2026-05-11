@@ -47,7 +47,7 @@ const galleryItems = [
 
   { src: nail41, alt: "Iridescent pink nails with gold stars and pearl embellishments", category: "Artistic" },
 
-  { src: nail26, alt: "White French tips with hand-painted cherry art", category: "Hand-painted" },
+  // { src: nail26, alt: "White French tips with hand-painted cherry art", category: "Hand-painted" },
   { src: nail27, alt: "Classic glitter French tip manicure", category: "Classic" },
   { src: nail28, alt: "Deep purple iridescent chrome stiletto nails", category: "Chrome" },
   { src: nail29, alt: "Hot pink glitter tips with crystal embellishments", category: "Glamour" },
@@ -61,7 +61,7 @@ const galleryItems = [
   { src: nail37, alt: "Playful pastel multicolor French tip set", category: "Modern" },
   { src: nail38, alt: "Ethereal white nails with celestial eye and star motifs", category: "Artistic" },
   { src: nail39, alt: "Elegant black French tips with hand-painted black floral details", category: "Modern" },
-  { src: nail40, alt: "Dramatic red French tips with intricate red crystal work", category: "Glamour" },
+  // { src: nail40, alt: "Dramatic red French tips with intricate red crystal work", category: "Glamour" },
   { src: nail42, alt: "Clean white French tips with elegant square crystal accents", category: "Elegant" },
   { src: nail43, alt: "Vibrant butterfly wing nail art in blue and pink", category: "Artistic" },
   { src: nail44, alt: "Soft pink glossy square manicure", category: "Classic" },
