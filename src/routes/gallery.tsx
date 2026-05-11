@@ -23,6 +23,9 @@ import nail39 from "@/assets/gallery/nail-39.jpg";
 import nail40 from "@/assets/gallery/nail-40.jpg";
 import nail41 from "@/assets/gallery/nail-41.jpg";
 import nail42 from "@/assets/gallery/nail-42.jpg";
+import nail43 from "@/assets/gallery/nail-43.jpg";
+import nail44 from "@/assets/gallery/nail-44.jpg";
+
 
 export const Route = createFileRoute("/gallery")({
   component: GalleryPage,
@@ -38,9 +41,12 @@ export const Route = createFileRoute("/gallery")({
 });
 
 const galleryItems = [
+  { src: nail25, alt: "Soft pink ombre hands with rings", category: "Elegant" },
   { src: nail23, alt: "Nude pink ombre almond nails", category: "Gradient" },
   { src: nail24, alt: "Silver glitter gradient almond nails", category: "Glamour" },
-  { src: nail25, alt: "Soft pink ombre hands with rings", category: "Elegant" },
+
+  { src: nail41, alt: "Iridescent pink nails with gold stars and pearl embellishments", category: "Artistic" },
+
   { src: nail26, alt: "White French tips with hand-painted cherry art", category: "Hand-painted" },
   { src: nail27, alt: "Classic glitter French tip manicure", category: "Classic" },
   { src: nail28, alt: "Deep purple iridescent chrome stiletto nails", category: "Chrome" },
@@ -56,8 +62,10 @@ const galleryItems = [
   { src: nail38, alt: "Ethereal white nails with celestial eye and star motifs", category: "Artistic" },
   { src: nail39, alt: "Elegant black French tips with hand-painted black floral details", category: "Modern" },
   { src: nail40, alt: "Dramatic red French tips with intricate red crystal work", category: "Glamour" },
-  { src: nail41, alt: "Iridescent pink nails with gold stars and pearl embellishments", category: "Artistic" },
   { src: nail42, alt: "Clean white French tips with elegant square crystal accents", category: "Elegant" },
+  { src: nail43, alt: "Vibrant butterfly wing nail art in blue and pink", category: "Artistic" },
+  { src: nail44, alt: "Soft pink glossy square manicure", category: "Classic" },
+
 ];
 
 function GalleryPage() {
