@@ -25,6 +25,9 @@ import nail41 from "@/assets/gallery/nail-41.jpg";
 import nail42 from "@/assets/gallery/nail-42.jpg";
 import nail43 from "@/assets/gallery/nail-43.jpg";
 import nail44 from "@/assets/gallery/nail-44.jpg";
+import nail45 from "@/assets/gallery/nail-45.png";
+import nail46 from "@/assets/gallery/nail-46.png";
+import nail47 from "@/assets/gallery/nail-47.png";
 
 
 export const Route = createFileRoute("/gallery")({
@@ -65,7 +68,9 @@ const galleryItems = [
   { src: nail42, alt: "Clean white French tips with elegant square crystal accents", category: "Elegant" },
   { src: nail43, alt: "Vibrant butterfly wing nail art in blue and pink", category: "Artistic" },
   { src: nail44, alt: "Soft pink glossy square manicure", category: "Classic" },
-
+  { src: nail45, alt: "Intricate silver spider web design on deep red cat-eye nails", category: "Themed" },
+  { src: nail46, alt: "Burgundy French tips with playful white polka dot accents", category: "Artistic" },
+  { src: nail47, alt: "Delicate hand-painted red bows on soft pink French tips", category: "Hand-painted" },
 ];
 
 function GalleryPage() {
