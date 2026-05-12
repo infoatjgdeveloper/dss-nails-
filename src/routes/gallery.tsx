@@ -45,7 +45,7 @@ export const Route = createFileRoute("/gallery")({
 
 const galleryItems = [
   { src: nail25, alt: "Soft pink ombre hands with rings", category: "Elegant" },
-  { src: nail23, alt: "Nude pink ombre almond nails", category: "Gradient" },
+  // { src: nail23, alt: "Nude pink ombre almond nails", category: "Gradient" },
   { src: nail24, alt: "Silver glitter gradient almond nails", category: "Glamour" },
 
   { src: nail41, alt: "Iridescent pink nails with gold stars and pearl embellishments", category: "Artistic" },
@@ -60,7 +60,7 @@ const galleryItems = [
   { src: nail33, alt: "Classic vibrant solid red glossy nails", category: "Classic" },
   { src: nail34, alt: "Celestial white nails with gold stars and crystals", category: "Artistic" },
   { src: nail35, alt: "Luxury red French tips with heavy red rhinestone accents", category: "Glamour" },
-  { src: nail36, alt: "Soft pink ombre with delicate white floral and pearl art", category: "Floral" },
+  // { src: nail36, alt: "Soft pink ombre with delicate white floral and pearl art", category: "Floral" },
   { src: nail37, alt: "Playful pastel multicolor French tip set", category: "Modern" },
   { src: nail38, alt: "Ethereal white nails with celestial eye and star motifs", category: "Artistic" },
   { src: nail39, alt: "Elegant black French tips with hand-painted black floral details", category: "Modern" },
