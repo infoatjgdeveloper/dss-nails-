@@ -1,5 +1,5 @@
-import heroImg from "@/assets/hero-hands.jpg";
 
+import nail25 from "@/assets/gallery/nail-25.jpg";
 export function Hero() {
   return (
     <section className="relative bg-gradient-blush pt-32 lg:pt-36 pb-20 lg:pb-32 px-6 lg:px-10">
@@ -58,7 +58,7 @@ export function Hero() {
         <div className="relative animate-fade-in">
           <div className="absolute -inset-4 bg-primary/10 -z-10" />
           <img
-            src={heroImg}
+            src={nail25}
             alt="Elegant almond-shaped nails with a soft nude pink ombre gradient"
             width={1024}
             height={1280}
