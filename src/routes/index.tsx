@@ -15,12 +15,12 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Dss Nails & Spa — Astoria's trusted luxury nail salon in the heart of Queens since 2024. Specializing in Japanese Gel Manicures, nail art, and wellness-focused care.",
+          "Dss Nails & Spa — Astoria's trusted luxury nail salon in the heart of Queens since September 2023. Specializing in UV Gel Manicures, nail art, and wellness-focused care.",
       },
       { property: "og:title", content: "Dss Nails & Spa — Your Beauty Best Friend" },
       {
         property: "og:description",
-        content: "Wellness-focused, professional nail care in Astoria, Queens since 2024.",
+        content: "Wellness-focused, professional nail care in Astoria, Queens since September 2023.",
       },
     ],
   }),

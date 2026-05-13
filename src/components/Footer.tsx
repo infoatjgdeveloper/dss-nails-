@@ -32,7 +32,7 @@ export function Footer() {
           <div className="md:col-span-2">
             <p className="font-serif text-3xl">Dss <em className="text-olive-light">Nails &amp; Spa</em></p>
             <p className="mt-4 text-sm text-background/60 max-w-sm">
-              Your beauty best friend in Astoria, heart of Queens. Wellness-focused nail care since 2024.
+              Your beauty best friend in Astoria, heart of Queens. Wellness-focused nail care since September 2023.
             </p>
             <div className="mt-6 space-y-3">
               <a
