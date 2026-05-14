@@ -107,7 +107,7 @@ export function Footer() {
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-8 border-t border-background/15 text-xs text-background/50 uppercase tracking-[0.2em]">
           <p>© {new Date().getFullYear()} Dss Nails &amp; Spa</p>
-          <p>Made with care in Astoria</p>
+          <p>Managed by <a href="https://www.jgdeveloper.com/" target="_blank" rel="noopener noreferrer" className="hover:text-background transition-colors">JG AI</a></p>
         </div>
       </div>
     </footer>
